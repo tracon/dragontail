@@ -13,6 +13,6 @@ def content_context(request):
         settings=settings,
         dragontail_app_name=app_name,
         dragontail_footer=u"<a href='https://github.com/tracon/dragontail' target='_blank'>{app_name}"
-            u"</a> © 2016 <a href='https://github.com/tracon/dragontail/blob/master/LICENSE'>"
+            u"</a> © 2016 <a href='https://github.com/tracon/dragontail/blob/master/LICENSE.md'>"
             "Santtu Pajukanta</a>.".format(app_name=app_name)
     )
