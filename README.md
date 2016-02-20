@@ -15,11 +15,11 @@ Wagtail therefore does not provide basic concepts such as "content page" or "blo
 | Feature | TraContent | Dragontail |
 |---------|------------|------------|
 | Python version | 2.7, 3.4 or 3.5 | 3.4 or 3.5 |
-| Framework | Django 1.9 | Django 1.9 |
-| Base CMS | None | Wagtail |
+| Framework | Django 1.9 | Django 1.9 |
+| Base CMS | None | Wagtail |
 | Admin UI | Django Admin | Wagtail |
 | Rich Text Editor | CKEditor | Wagtail |
-| File Management | CKEditor | Wagtail |
+| File Management | CKEditor | Wagtail |
 
 ## Standard Edition vs. Enterprise Edition
 
@@ -31,7 +31,7 @@ Here's a cool feature matrix:
 | Price | Free | Free |
 | Support | Purchased separately | Purchased separately |
 | Multisite support | Yes (always on) | Yes (always on) |
-| OAuth2 authentication | No | Yes |
+| OAuth2 authentication | No | Yes |
 
 ### No, really, what's the difference?
 

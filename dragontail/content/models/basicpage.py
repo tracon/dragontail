@@ -1,4 +1,4 @@
-# encoding: utf-8
+  # encoding: utf-8
 
 from django.db import models
 
@@ -18,3 +18,10 @@ class BasicPage(Page):
     content_panels = Page.content_panels + [
         StreamFieldPanel('body'),
     ]
+
+    def get_template(self, request, *args, **kwargs):
+        from .templatesettings import TemplateSettings
+
+        template_settings = TemplateSettings.for_site(request.site)
+
+        return template_settings.basic_page_template
